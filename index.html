@@ -75,17 +75,15 @@ EOF
 </pre>
     <script>
         // Enable easy forking
-        if (!window.location.hostname.includes('github.io')) {
-            const banner = document.createElement('div');
-            banner.innerHTML = `
+        const banner = document.createElement('div');
+        banner.innerHTML = `
         <div style="position: fixed; top: 0; right: 0; padding: 1em; background: #000; color: #fff;">
           <a href="https://github.com/0i0/deplate-manifesto" style="color: #fff; text-decoration: none;">
             Fork on GitHub
           </a>
         </div>
       `;
-            document.body.appendChild(banner);
-        }
+        document.body.appendChild(banner);
     </script>
 </body>
 
