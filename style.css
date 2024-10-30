@@ -1,0 +1,25 @@
+body {
+    font-family: monospace;
+    line-height: 1.5;
+    max-width: 80ch;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+a {
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+    }
+}
